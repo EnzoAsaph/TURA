@@ -350,6 +350,9 @@ font-size: 0.8rem;
      min-height: 100vh;
      margin-top: 2rem;
 }
+.login-container h2{
+    padding-top: 1rem;
+}
 .login-container {
     display: flex;
     flex-direction: column;
