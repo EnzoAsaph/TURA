@@ -516,3 +516,47 @@ font-size: 0.8rem;
     gap: 2em;
     margin-top: 5em;
 }
+/* CONTACT US SECTION */
+.contact {
+    padding: 4.5rem 0;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    margin-bottom: 2rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 0.8rem;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact .btn {
+    align-self: flex-start;
+}
