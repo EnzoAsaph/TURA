@@ -357,6 +357,7 @@ font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    
 }
 .login-container{
     font-size: 1.4rem;
@@ -509,4 +510,9 @@ font-size: 0.8rem;
     .footer{
         border-radius: 3rem 0 0 0;
     }
+}
+
+.content {
+    gap: 2em;
+    margin-top: 5em;
 }
