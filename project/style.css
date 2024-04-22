@@ -359,6 +359,13 @@ font-size: 0.8rem;
     row-gap: 1rem;
     
 }
+.login-container .homelink a{
+    background: var(--main-color);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
 .login-container{
     font-size: 1.4rem;
 }
