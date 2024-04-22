@@ -9,7 +9,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 $query = "SELECT * FROM users WHERE email = '$email'";
-$result = $conn->query(query);
+$result = $conn->query($query);
 
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
@@ -21,10 +21,10 @@ if ($result->num_rows > 0) {
         header("Location: index.html");
         exit();
     } else {
-        echo "Incorrect password.";
+        echo "<script>alert('Incorrect password.');window.location.href='login.html';</script>";
     }
 } else {
-    echo "No user found with the specified email.";
+    echo "<script>alert('No user found with the specified email.');window.location.href='login.html';</script>";
 }
 
 // Close connection
